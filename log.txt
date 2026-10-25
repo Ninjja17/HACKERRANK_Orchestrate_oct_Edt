@@ -505,3 +505,25 @@ repo_root=c:\Users\drbac\OneDrive\Desktop\HACKERRANK
 worktree=main
 parent_agent=none
 
+## [2026-10-25T18:17:30+05:30] Explain GitHub CLI authentication state and headless limitation
+
+User Prompt (verbatim, secrets redacted):
+why is this happen i have already git hub cli why donot you use that 
+
+Agent Response Summary:
+Checked `gh auth status` and confirmed that GitHub CLI is installed (`C:\Program Files\GitHub CLI\gh.exe`) and configured as the Git credential helper in `~/.gitconfig`, but no GitHub account is logged in (`You are not logged into any GitHub hosts`). Explained that `gh auth login` requires an interactive terminal/browser authorization flow that cannot be triggered from a headless background subshell. Instructed the user on how to run `gh auth login` in their terminal once so all future CLI and Git operations succeed automatically.
+
+Actions:
+* Ran `gh auth status` to inspect GitHub CLI auth state
+* Inspected git credential configuration in `~/.gitconfig`
+* Updated log.txt with per-turn audit log
+
+Context:
+tool=Antigravity
+model=Gemini 3.8 Flash (Medium)
+branch=main
+repo_root=c:\Users\drbac\OneDrive\Desktop\HACKERRANK
+worktree=main
+parent_agent=none
+
+
