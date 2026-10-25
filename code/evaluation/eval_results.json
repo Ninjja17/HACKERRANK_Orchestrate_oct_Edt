@@ -1,0 +1,316 @@
+{
+  "sample_eval": {
+    "n": 32,
+    "case_accuracy": 0.90625,
+    "sequence_accuracy": 0.0,
+    "step_field_accuracy": 0.4,
+    "step_field_total": 135,
+    "per_case": [
+      {
+        "case_id": "case_01",
+        "status_match": false,
+        "gold_status": "COMPLETE",
+        "pred_status": "INCOMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 1,
+        "pred_step_count": 2
+      },
+      {
+        "case_id": "case_02",
+        "status_match": false,
+        "gold_status": "COMPLETE",
+        "pred_status": "INCOMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 1,
+        "pred_step_count": 2
+      },
+      {
+        "case_id": "case_03",
+        "status_match": true,
+        "gold_status": "COMPLETE",
+        "pred_status": "COMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 3,
+        "pred_step_count": 2
+      },
+      {
+        "case_id": "case_04",
+        "status_match": false,
+        "gold_status": "COMPLETE",
+        "pred_status": "INCOMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 2,
+        "pred_step_count": 2
+      },
+      {
+        "case_id": "case_05",
+        "status_match": true,
+        "gold_status": "INCOMPLETE",
+        "pred_status": "INCOMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 3,
+        "pred_step_count": 4
+      },
+      {
+        "case_id": "case_06",
+        "status_match": true,
+        "gold_status": "INCOMPLETE",
+        "pred_status": "INCOMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 4,
+        "pred_step_count": 3
+      },
+      {
+        "case_id": "case_07",
+        "status_match": true,
+        "gold_status": "INCOMPLETE",
+        "pred_status": "INCOMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 4,
+        "pred_step_count": 3
+      },
+      {
+        "case_id": "case_08",
+        "status_match": true,
+        "gold_status": "INCOMPLETE",
+        "pred_status": "INCOMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 4,
+        "pred_step_count": 3
+      },
+      {
+        "case_id": "case_09",
+        "status_match": true,
+        "gold_status": "INCOMPLETE",
+        "pred_status": "INCOMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 5,
+        "pred_step_count": 3
+      },
+      {
+        "case_id": "case_10",
+        "status_match": true,
+        "gold_status": "INCOMPLETE",
+        "pred_status": "INCOMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 4,
+        "pred_step_count": 3
+      },
+      {
+        "case_id": "case_11",
+        "status_match": true,
+        "gold_status": "INCOMPLETE",
+        "pred_status": "INCOMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 14,
+        "pred_step_count": 13
+      },
+      {
+        "case_id": "case_12",
+        "status_match": true,
+        "gold_status": "INCOMPLETE",
+        "pred_status": "INCOMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 5,
+        "pred_step_count": 3
+      },
+      {
+        "case_id": "case_13",
+        "status_match": true,
+        "gold_status": "INCOMPLETE",
+        "pred_status": "INCOMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 8,
+        "pred_step_count": 6
+      },
+      {
+        "case_id": "case_14",
+        "status_match": true,
+        "gold_status": "INCOMPLETE",
+        "pred_status": "INCOMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 5,
+        "pred_step_count": 3
+      },
+      {
+        "case_id": "case_15",
+        "status_match": true,
+        "gold_status": "INCOMPLETE",
+        "pred_status": "INCOMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 5,
+        "pred_step_count": 3
+      },
+      {
+        "case_id": "case_16",
+        "status_match": true,
+        "gold_status": "INCOMPLETE",
+        "pred_status": "INCOMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 7,
+        "pred_step_count": 2
+      },
+      {
+        "case_id": "case_17",
+        "status_match": true,
+        "gold_status": "INCOMPLETE",
+        "pred_status": "INCOMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 5,
+        "pred_step_count": 3
+      },
+      {
+        "case_id": "case_18",
+        "status_match": true,
+        "gold_status": "INCOMPLETE",
+        "pred_status": "INCOMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 14,
+        "pred_step_count": 12
+      },
+      {
+        "case_id": "case_19",
+        "status_match": true,
+        "gold_status": "INCOMPLETE",
+        "pred_status": "INCOMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 8,
+        "pred_step_count": 6
+      },
+      {
+        "case_id": "case_20",
+        "status_match": true,
+        "gold_status": "INCOMPLETE",
+        "pred_status": "INCOMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 8,
+        "pred_step_count": 6
+      },
+      {
+        "case_id": "case_21",
+        "status_match": true,
+        "gold_status": "COMPLETE",
+        "pred_status": "COMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 3,
+        "pred_step_count": 1
+      },
+      {
+        "case_id": "case_22",
+        "status_match": true,
+        "gold_status": "INCOMPLETE",
+        "pred_status": "INCOMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 8,
+        "pred_step_count": 2
+      },
+      {
+        "case_id": "case_23",
+        "status_match": true,
+        "gold_status": "INCOMPLETE",
+        "pred_status": "INCOMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 8,
+        "pred_step_count": 6
+      },
+      {
+        "case_id": "case_24",
+        "status_match": true,
+        "gold_status": "INCOMPLETE",
+        "pred_status": "INCOMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 7,
+        "pred_step_count": 6
+      },
+      {
+        "case_id": "case_25",
+        "status_match": true,
+        "gold_status": "COMPLETE",
+        "pred_status": "COMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 3,
+        "pred_step_count": 1
+      },
+      {
+        "case_id": "case_26",
+        "status_match": true,
+        "gold_status": "COMPLETE",
+        "pred_status": "COMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 6,
+        "pred_step_count": 3
+      },
+      {
+        "case_id": "case_27",
+        "status_match": true,
+        "gold_status": "COMPLETE",
+        "pred_status": "COMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 6,
+        "pred_step_count": 3
+      },
+      {
+        "case_id": "case_28",
+        "status_match": true,
+        "gold_status": "COMPLETE",
+        "pred_status": "COMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 6,
+        "pred_step_count": 3
+      },
+      {
+        "case_id": "case_29",
+        "status_match": true,
+        "gold_status": "INCOMPLETE",
+        "pred_status": "INCOMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 14,
+        "pred_step_count": 12
+      },
+      {
+        "case_id": "case_30",
+        "status_match": true,
+        "gold_status": "INCOMPLETE",
+        "pred_status": "INCOMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 14,
+        "pred_step_count": 12
+      },
+      {
+        "case_id": "case_31",
+        "status_match": true,
+        "gold_status": "COMPLETE",
+        "pred_status": "COMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 3,
+        "pred_step_count": 2
+      },
+      {
+        "case_id": "case_32",
+        "status_match": true,
+        "gold_status": "INCOMPLETE",
+        "pred_status": "INCOMPLETE",
+        "sequence_match": false,
+        "gold_step_count": 5,
+        "pred_step_count": 3
+      }
+    ]
+  },
+  "custom_cases": {
+    "custom_01": {
+      "expected": "NOT_APPLICABLE (marketing opt-out, not a deletion request)",
+      "predicted_status": "NOT_APPLICABLE",
+      "predicted_steps": []
+    },
+    "custom_02": {
+      "expected": "Must NOT be a confident COMPLETE (unresolved identity -- no matching user)",
+      "predicted_status": "INCOMPLETE",
+      "predicted_steps": []
+    },
+    "custom_03": {
+      "expected": "Must NOT be COMPLETE via evidence_54 (captured after this case's audit_at)",
+      "predicted_status": "INCOMPLETE",
+      "predicted_steps": []
+    }
+  }
+}
